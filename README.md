@@ -10,7 +10,7 @@ This a calculator that takes in two operands and an operator and performs calcul
 - [ ] **Parantheses**
 - [ ] **Order of Operations**
 
-### [LIVE DEMO](ekwon86.github.io/calculator)
+### [LIVE DEMO](http://ekwon86.github.io/calculator)
 
 
 
