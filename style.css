@@ -109,7 +109,7 @@ button:hover {
 
 @media (min-width: 320px) and (max-width: 579px) {
     .keys {
-        font-size: 3.5vh;
+        font-size: 4vh;
     }
 
     #ghlink {
