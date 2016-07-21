@@ -107,6 +107,7 @@ button:hover {
     color: #44b5ff;
 }
 
+/****************************** PORTRAIT **********************************/
 @media (min-width: 320px) and (max-width: 579px) {
     .keys {
         font-size: 4vh;
@@ -116,3 +117,28 @@ button:hover {
         top: 75vh;
     }
 }
+
+
+/****************************** LANDSCAPE **********************************/
+@media (min-width: 580px) and (max-width: 767px) {
+    .keys {
+        font-size: 5vh;
+    }
+
+    .top {
+        height: 25%;
+    }
+
+    .display {
+        font-size: 8vh;
+    }
+
+    .calc-body {
+        margin-top: 12px;
+    }
+
+    #ghlink {
+        top: 82vh;
+    }
+}
+
