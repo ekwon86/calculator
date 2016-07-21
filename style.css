@@ -107,8 +107,12 @@ button:hover {
     color: #44b5ff;
 }
 
-/*@media screen and (max-width: 627px) {*/
-/*.display {*/
-/*font-size: 15px;*/
-/*}*/
-/*}*/
+@media (min-width: 320px) and (max-width: 579px) {
+    .keys {
+        font-size: 3.5vh;
+    }
+
+    #ghlink {
+        top: 75vh;
+    }
+}
