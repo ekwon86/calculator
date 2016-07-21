@@ -175,14 +175,12 @@ $(document).ready(function() {
     var calc = new calc_constructor();
 
     /** Click handler **/
-    $('button').click(function() {
+    $('button').click(function () {
         calc.button_pressed($(this).text());
     });
 
     /** Keyboard Input **/
-    $(window).on('keypress', function(e) {
+    $(window).on('keypress', function (e) {
         calc.button_pressed(keyboard_press(e.keyCode));
     });
-    
 });
-
